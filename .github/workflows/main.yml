@@ -2,8 +2,8 @@ name: Daily Stock Screener
 
 on:
   schedule:
-    - cron: '0 23 * * *'   # 每天 UTC 23:00 自动运行（约为北京时间早上7点，卡尔加里时间下午4点）
-  workflow_dispatch:        # 允许手动触发
+    - cron: '0 20 * * *'   # 每天 UTC 20:00 执行（卡尔加里时间下午 2 点）
+  workflow_dispatch:        # 支持手动运行
 
 jobs:
   run-screener:
@@ -21,7 +21,7 @@ jobs:
       - name: 📥 Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install yfinance pandas ta matplotlib
+          pip install yfinance pandas numpy matplotlib lxml requests
 
       - name: 🚀 Run stock screener
         run: |
