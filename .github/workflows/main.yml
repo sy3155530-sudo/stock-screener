@@ -3,7 +3,10 @@ name: Build static screener
 on:
   schedule:
     - cron: "0 0 * * 1-5"  # 每个交易日 UTC 0点运行（卡尔加里18点）
-  workflow_dispatch:        # 允许手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write   # ✅ 关键：允许 Action 推送到 gh-pages 分支
 
 jobs:
   build:
