@@ -50,23 +50,23 @@ def analyze_ticker(symbol):
 
 # === 主程序 ===
 def main():
-    print(f"🚀 开始分析股票（截至 {TODAY}）...")
+    print(f"🚀 开始分析股票 (截至 {TODAY}) ...")
     tickers = get_us_tickers()
-    results = []
+    results = []  # ✅ 定义结果列表
 
     for symbol in tickers:
         res = analyze_ticker(symbol)
         if res:
             results.append(res)
 
-if results:
-    df = pd.DataFrame(results)
-    import os
-    os.makedirs("output", exist_ok=True)
-    df.to_csv("output/results.csv", index=False, encoding="utf-8-sig")
-    print(f"✅ 分析完成，共找到 {len(df)} 支股票。结果已保存为 output/results.csv")
-else:
-    print("😅 没有符合条件的股票。")
+    if results:
+        import os
+        os.makedirs("output", exist_ok=True)
+        df = pd.DataFrame(results)
+        df.to_csv("output/results.csv", index=False, encoding="utf-8-sig")
+        print(f"✅ 分析完成，共找到 {len(df)} 支股票。结果已保存为 output/results.csv")
+    else:
+        print("😅 没有符合条件的股票。")
 
 if __name__ == "__main__":
     main()
