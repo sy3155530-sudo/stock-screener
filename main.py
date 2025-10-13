@@ -8,8 +8,13 @@ MIN_MARKET_CAP = 1_000_000_000   # 最小市值：10亿美元
 TODAY = dt.date.today()
 
 # === 获取美股主板股票（NASDAQ + NYSE + AMEX） ===
+import pandas as pd
+
 def get_us_tickers():
-    tickers = yf.tickers_sp500()  # 简化：先用S&P500公司
+    # 从维基百科获取 S&P 500 股票列表
+    url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    tables = pd.read_html(url)
+    tickers = tables[0]["Symbol"].tolist()
     return tickers
 
 # === 分析逻辑（简化示例） ===
