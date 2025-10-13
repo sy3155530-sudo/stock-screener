@@ -10,10 +10,16 @@ TODAY = dt.date.today()
 # === 获取美股主板股票（NASDAQ + NYSE + AMEX） ===
 import pandas as pd
 
+import pandas as pd
+import requests
+from io import StringIO
+
 def get_us_tickers():
-    # 从维基百科获取 S&P 500 股票列表
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-    tables = pd.read_html(url)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    response = requests.get(url, headers=headers)
+    html = StringIO(response.text)
+    tables = pd.read_html(html)
     tickers = tables[0]["Symbol"].tolist()
     return tickers
 
