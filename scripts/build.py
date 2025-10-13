@@ -1,65 +1,61 @@
-# scripts/build.py
+import requests
+import pandas as pd
 import datetime as dt
 import pathlib
-import pandas as pd
 
-try:
-    import yfinance as yf
-except Exception:
-    yf = None
+# === 你的 Twelve Data API Key ===
+API_KEY = "dffc5f3caf764b20af688cdd13bbaf98"
 
-# === 你可以改这里的股票清单 ===
-TICKERS = ["AAPL","MSFT","NVDA","AMZN","META","TSLA","GOOGL","AMD","NFLX","AVGO"]
+# === 你想追踪的股票 ===
+TICKERS = ["AAPL", "MSFT", "NVDA", "AMZN", "META", "TSLA", "GOOGL", "NFLX", "AMD", "AVGO"]
 
 def fetch_prices(tickers):
-    """逐只获取最新收盘价；失败则跳过，保证至少返回空表而不是报错。"""
+    """从 Twelve Data 获取股票价格"""
     rows = []
-    if yf is None:
-        return pd.DataFrame(rows, columns=["Symbol","Price"])
     for t in tickers:
         try:
-            h = yf.Ticker(t).history(period="5d", interval="1d", auto_adjust=True)
-            if not h.empty:
-                price = float(h["Close"].tail(1).iloc[0])
+            url = f"https://api.twelvedata.com/price?symbol={t}&apikey={API_KEY}"
+            r = requests.get(url, timeout=5).json()
+            if "price" in r:
+                price = float(r["price"])
                 rows.append({"Symbol": t, "Price": round(price, 2)})
-        except Exception:
-            # 忽略单只失败，继续
-            continue
-    return pd.DataFrame(rows, columns=["Symbol","Price"])
+            else:
+                print(f"⚠️ 无法获取 {t} 的数据: {r}")
+        except Exception as e:
+            print(f"❌ {t} 错误: {e}")
+    return pd.DataFrame(rows, columns=["Symbol", "Price"])
 
-def build_html(df: pd.DataFrame) -> str:
+def build_html(df):
+    """生成网页 HTML"""
     now = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    if df is None or df.empty:
-        table_html = "<p><b>⚠️ 暂无数据（可能被数据源限流）。请稍后在 Actions 里手动重跑。</b></p>"
+    if df.empty:
+        table_html = "<p>⚠️ 暂无数据，请稍后再试。</p>"
     else:
-        # 统一列
-        cols = list(df.columns)
-        if cols == ["Symbol"] or len(cols) == 1:
-            df["Price"] = ""
-        elif len(cols) >= 2:
-            df = df[["Symbol","Price"]]
-        table_html = df.to_html(index=False, border=0)
+        table_html = df.to_html(index=False, border=0, justify="center")
 
-    return f"""<!DOCTYPE html><html lang="zh-CN"><meta charset="utf-8">
-<title>每日美股筛选结果</title>
-<style>
-body{{font-family:Segoe UI,Arial;margin:40px;background:#f7f9fc}}
-h1{{color:#2c3e50}} table{{border-collapse:collapse;width:100%;background:#fff;margin-top:20px}}
-th,td{{border:1px solid #ddd;padding:8px;text-align:center}} th{{background:#4CAF50;color:#fff}}
-tr:nth-child(even){{background:#f2f2f2}} footer{{margin-top:20px;color:#888}}
-</style>
-<h1>🚀 每日美股筛选结果</h1>
-<p>更新时间：{now}</p>
-{table_html}
-<footer>数据源：Yahoo Finance（yfinance）｜静态站点（GitHub Pages）</footer>
-</html>"""
+    html = f"""
+    <html>
+    <meta charset="utf-8">
+    <title>每日美股筛选结果</title>
+    <body style="font-family:Arial; background:#f7f9fc; margin:40px;">
+        <h1>🚀 每日美股筛选结果</h1>
+        <p>更新时间：{now}</p>
+        {table_html}
+        <footer style="margin-top:30px; color:gray;">
+            数据源：Twelve Data ｜ 自动发布：GitHub Actions
+        </footer>
+    </body>
+    </html>
+    """
+    return html
 
 def main():
+    print("⏳ 正在获取股票数据...")
     df = fetch_prices(TICKERS)
     html = build_html(df)
     pathlib.Path("site").mkdir(exist_ok=True)
     pathlib.Path("site/index.html").write_text(html, encoding="utf-8")
-    print(f"✅ Generated site/index.html with {0 if df is None else len(df)} rows")
+    print("✅ 已生成 site/index.html 文件")
 
 if __name__ == "__main__":
     main()
