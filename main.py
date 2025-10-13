@@ -59,14 +59,14 @@ def main():
         if res:
             results.append(res)
 
-    if results:
-        df = pd.DataFrame(results)
-        import os
-os.makedirs("output", exist_ok=True)
-df.to_csv("output/results.csv", index=False, encoding="utf-8-sig")
-        print(f"✅ 分析完成，共找到 {len(df)} 支股票。结果已保存为 results.csv")
-    else:
-        print("😅 没有符合条件的股票。")
+if results:
+    df = pd.DataFrame(results)
+    import os
+    os.makedirs("output", exist_ok=True)
+    df.to_csv("output/results.csv", index=False, encoding="utf-8-sig")
+    print(f"✅ 分析完成，共找到 {len(df)} 支股票。结果已保存为 output/results.csv")
+else:
+    print("😅 没有符合条件的股票。")
 
 if __name__ == "__main__":
     main()
