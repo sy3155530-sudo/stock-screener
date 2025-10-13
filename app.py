@@ -1,44 +1,52 @@
 from flask import Flask, render_template_string
 import pandas as pd
-import os
+import requests
 
 app = Flask(__name__)
 
+# 你的GitHub Raw文件路径（请替换成自己的仓库地址）
+CSV_URL = "https://raw.githubusercontent.com/sy3155530-sudo/stock-screener/main/results.csv"
+
+HTML_TEMPLATE = """
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>每日美股筛选结果</title>
+    <style>
+        body { font-family: "Segoe UI", sans-serif; margin: 40px; background: #f7f9fc; }
+        h1 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; background: white; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background: #4CAF50; color: white; }
+        tr:nth-child(even) { background: #f2f2f2; }
+        footer { margin-top: 30px; color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>🚀 每日美股筛选结果</h1>
+    {% if table_html %}
+        {{ table_html | safe }}
+    {% else %}
+        <p><b>结果文件未找到，请先运行 GitHub Actions 生成 results.csv。</b></p>
+    {% endif %}
+    <footer>数据来源：Yahoo Finance | 自动更新系统</footer>
+</body>
+</html>
+"""
+
 @app.route('/')
-def home():
-    # 检查结果文件是否存在
-    file_path = "output/results.csv"
-    if not os.path.exists(file_path):
-        return "<h2>🚀 结果文件未找到，请先运行 GitHub Actions 获取筛选结果。</h2>"
-
-    # 读取结果
-    df = pd.read_csv(file_path)
-    if df.empty:
-        return "<h2>😅 没有符合条件的股票。</h2>"
-
-    # 转成HTML表格
-    table_html = df.to_html(classes='table table-striped', index=False)
-
-    # 网页模板
-    html = f"""
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <title>每日美股筛选结果</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body class="bg-dark text-light">
-        <div class="container mt-4">
-            <h1 class="text-center text-warning">📈 每日美股筛选结果</h1>
-            <p class="text-center text-secondary">自动更新（来自 GitHub Actions）</p>
-            <div class="table-responsive bg-light text-dark p-3 rounded">
-                {table_html}
-            </div>
-        </div>
-    </body>
-    </html>
-    """
-    return render_template_string(html)
+def index():
+    try:
+        response = requests.get(CSV_URL, timeout=10)
+        if response.status_code == 200:
+            df = pd.read_csv(pd.compat.StringIO(response.text))
+            table_html = df.to_html(index=False)
+            return render_template_string(HTML_TEMPLATE, table_html=table_html)
+        else:
+            return render_template_string(HTML_TEMPLATE, table_html=None)
+    except Exception as e:
+        return f"<h3>⚠️ 无法从GitHub获取数据: {e}</h3>"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
