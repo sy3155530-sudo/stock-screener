@@ -1,38 +1,21 @@
-name: Daily Stock Screener
-
+name: Build static screener
 on:
   schedule:
-    - cron: '0 20 * * *'   # 每天 UTC 20:00 执行（卡尔加里时间下午 2 点）
-  workflow_dispatch:        # 支持手动运行
-
+    - cron: "0 0 * * 1-5"   # 每个交易日 UTC 13:00 运行（≈ 卡尔加里早上7点，按需改）
+  workflow_dispatch:          # 允许你手动运行
 jobs:
-  run-screener:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📦 Checkout repository
-        uses: actions/checkout@v4
-
-      - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-
-      - name: 📥 Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install yfinance pandas numpy matplotlib lxml requests
-
-      - name: 🚀 Run stock screener
-        run: |
-          python main.py
-
-      - name: 📤 Commit and push results
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          mkdir -p output
-          cp output/results.csv ./results.csv
-          git add results.csv
-          git commit -m "Auto update results.csv on $(date '+%Y-%m-%d %H:%M')" || echo "No changes"
-          git push
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python scripts/build.py
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site
+          publish_branch: gh-pages
