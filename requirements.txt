@@ -1,2 +1,2 @@
+yfinance==0.2.52
 pandas==2.2.2
-requests>=2.31.0
