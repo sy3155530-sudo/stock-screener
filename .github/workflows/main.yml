@@ -2,34 +2,35 @@ name: Daily Stock Screener
 
 on:
   schedule:
-    # 每天 UTC 时间 20:00 自动执行（卡尔加里时间下午 2 点）
-    - cron: "0 20 * * *"
-  workflow_dispatch: # 支持手动执行
+    - cron: '0 23 * * *'   # 每天 UTC 23:00 自动运行（约为北京时间早上7点，卡尔加里时间下午4点）
+  workflow_dispatch:        # 允许手动触发
 
 jobs:
   run-screener:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🧾 Checkout repository
+      - name: 📦 Checkout repository
         uses: actions/checkout@v4
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: 📦 Install dependencies
+      - name: 📥 Install dependencies
         run: |
-          pip install yfinance pandas numpy matplotlib lxml requests
+          pip install -r requirements.txt
+          pip install yfinance pandas ta matplotlib
 
-      - name: 🚀 Run the stock screener
+      - name: 🚀 Run stock screener
         run: |
           python main.py
 
-      - name: 📤 Upload result file
-        if: ${{ success() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: results
-          path: output/results.csv
+      - name: 📤 Commit and push results
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add results.csv
+          git commit -m "Auto update results.csv on $(date '+%Y-%m-%d %H:%M')" || echo "No changes"
+          git push
