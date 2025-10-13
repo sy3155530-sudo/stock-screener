@@ -1,8 +1,10 @@
 name: Build static screener
+
 on:
   schedule:
-    - cron: "0 0 * * 1-5"   # 每个交易日 UTC 13:00 运行（≈ 卡尔加里早上7点，按需改）
-  workflow_dispatch:          # 允许你手动运行
+    - cron: "0 0 * * 1-5"  # 每个交易日 UTC 0点运行（卡尔加里18点）
+  workflow_dispatch:        # 允许手动触发
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +13,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - run: pip install -r requirements.txt
       - run: python scripts/build.py
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
