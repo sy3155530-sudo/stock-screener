@@ -4,14 +4,14 @@ on:
   schedule:
     # 每天 UTC 时间 20:00 自动执行（卡尔加里时间下午 2 点）
     - cron: "0 20 * * *"
-  workflow_dispatch:  # 支持手动执行
+  workflow_dispatch: # 支持手动执行
 
 jobs:
   run-screener:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repository
+      - name: 🧾 Checkout repository
         uses: actions/checkout@v4
 
       - name: 🐍 Set up Python
@@ -27,9 +27,9 @@ jobs:
         run: |
           python main.py
 
-      - name: 📁 Upload result file
-  if: success()
-  uses: actions/upload-artifact@v4
-  with:
-    name: results
-    path: output/results.csv
+      - name: 📤 Upload result file
+        if: ${{ success() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: output/results.csv
