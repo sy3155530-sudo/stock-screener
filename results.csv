@@ -1,853 +1,820 @@
 ﻿Symbol,MarketCap(USD),Close
-MMM,79228665856,"Ticker
-MMM    148.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-AOS,9493779456,"Ticker
-AOS    67.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-ABT,230732660736,"Ticker
-ABT    132.57
-Name: 2025-10-10 00:00:00, dtype: float64"
-ABBV,407191683072,"Ticker
-ABBV    230.5
-Name: 2025-10-10 00:00:00, dtype: float64"
-AMD,348521889792,"Ticker
-AMD    214.9
-Name: 2025-10-10 00:00:00, dtype: float64"
-AES,10018536448,"Ticker
-AES    14.07
-Name: 2025-10-10 00:00:00, dtype: float64"
-AFL,59339550720,"Ticker
-AFL    110.95
-Name: 2025-10-10 00:00:00, dtype: float64"
-A,38731825152,"Ticker
-A    136.62
-Name: 2025-10-10 00:00:00, dtype: float64"
-ALB,10574988288,"Ticker
-ALB    89.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-ARE,12619699200,"Ticker
-ARE    73.92
-Name: 2025-10-10 00:00:00, dtype: float64"
-ALLE,14876343296,"Ticker
-ALLE    173.29
-Name: 2025-10-10 00:00:00, dtype: float64"
-LNT,17415380992,"Ticker
-LNT    67.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-ALL,54195138560,"Ticker
-ALL    205.67
-Name: 2025-10-10 00:00:00, dtype: float64"
-GOOGL,2866073305088,"Ticker
-GOOGL    236.57
-Name: 2025-10-10 00:00:00, dtype: float64"
-GOOG,2866073305088,"Ticker
-GOOG    237.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-MO,111779946496,"Ticker
-MO    66.54
-Name: 2025-10-10 00:00:00, dtype: float64"
-AEE,28033396736,"Ticker
-AEE    103.67
-Name: 2025-10-10 00:00:00, dtype: float64"
-AEP,62592376832,"Ticker
-AEP    117.04
-Name: 2025-10-10 00:00:00, dtype: float64"
-AXP,220079718400,"Ticker
-AXP    316.26
-Name: 2025-10-10 00:00:00, dtype: float64"
-AME,41405423616,"Ticker
-AME    179.28
-Name: 2025-10-10 00:00:00, dtype: float64"
-AMGN,156194930688,"Ticker
-AMGN    290.13
-Name: 2025-10-10 00:00:00, dtype: float64"
-APH,148586086400,"Ticker
-APH    121.7
-Name: 2025-10-10 00:00:00, dtype: float64"
-ADI,110847401984,"Ticker
-ADI    225.32
-Name: 2025-10-10 00:00:00, dtype: float64"
-APA,7849835008,"Ticker
-APA    21.94
-Name: 2025-10-10 00:00:00, dtype: float64"
-AAPL,3639902470144,"Ticker
-AAPL    245.27
-Name: 2025-10-10 00:00:00, dtype: float64"
-AMAT,167255080960,"Ticker
-AMAT    209.95
-Name: 2025-10-10 00:00:00, dtype: float64"
-APP,192765247488,"Ticker
-APP    569.89
-Name: 2025-10-10 00:00:00, dtype: float64"
-APTV,17573216256,"Ticker
-APTV    80.7
-Name: 2025-10-10 00:00:00, dtype: float64"
-ADM,29231458304,"Ticker
-ADM    60.84
-Name: 2025-10-10 00:00:00, dtype: float64"
-ANET,193682964480,"Ticker
-ANET    154.1
-Name: 2025-10-10 00:00:00, dtype: float64"
-AIZ,10968318976,"Ticker
-AIZ    217.37
-Name: 2025-10-10 00:00:00, dtype: float64"
-ATO,28329199616,"Ticker
-ATO    176.48
-Name: 2025-10-10 00:00:00, dtype: float64"
-ADSK,64645500928,"Ticker
-ADSK    303.5
-Name: 2025-10-10 00:00:00, dtype: float64"
-AZO,67915042816,"Ticker
-AZO    4075.31
-Name: 2025-10-10 00:00:00, dtype: float64"
-BKR,44403994624,"Ticker
-BKR    45.04
-Name: 2025-10-10 00:00:00, dtype: float64"
-BAC,360347992064,"Ticker
-BAC    48.65
-Name: 2025-10-10 00:00:00, dtype: float64"
-BDX,53473218560,"Ticker
-BDX    186.56
-Name: 2025-10-10 00:00:00, dtype: float64"
-BBY,14797431808,"Ticker
-BBY    70.43
-Name: 2025-10-10 00:00:00, dtype: float64"
-TECH,9132977152,"Ticker
-TECH    58.66
-Name: 2025-10-10 00:00:00, dtype: float64"
-BIIB,21489301504,"Ticker
-BIIB    146.57
-Name: 2025-10-10 00:00:00, dtype: float64"
-BLK,175349727232,"Ticker
-BLK    1132.36
-Name: 2025-10-10 00:00:00, dtype: float64"
-BX,188856926208,"Ticker
-BX    153.77
-Name: 2025-10-10 00:00:00, dtype: float64"
-XYZ,45517635584,"Ticker
-XYZ    74.67
-Name: 2025-10-10 00:00:00, dtype: float64"
-BK,73725878272,"Ticker
-BK    104.54
-Name: 2025-10-10 00:00:00, dtype: float64"
-AVGO,1533021388800,"Ticker
-AVGO    324.63
-Name: 2025-10-10 00:00:00, dtype: float64"
-BG,16159008768,"Ticker
-BG    80.77
-Name: 2025-10-10 00:00:00, dtype: float64"
-BXP,12286066688,"Ticker
-BXP    69.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-CHRW,14798003200,"Ticker
-CHRW    125.31
-Name: 2025-10-10 00:00:00, dtype: float64"
-CDNS,89104228352,"Ticker
-CDNS    327.0
-Name: 2025-10-10 00:00:00, dtype: float64"
-CAH,37271973888,"Ticker
-CAH    156.88
-Name: 2025-10-10 00:00:00, dtype: float64"
-CAT,230163677184,"Ticker
-CAT    491.3
-Name: 2025-10-10 00:00:00, dtype: float64"
-CBOE,25594251264,"Ticker
-CBOE    244.71
-Name: 2025-10-10 00:00:00, dtype: float64"
-CBRE,44746223616,"Ticker
-CBRE    150.38
-Name: 2025-10-10 00:00:00, dtype: float64"
-COR,61653168128,"Ticker
-COR    318.0
-Name: 2025-10-10 00:00:00, dtype: float64"
-CNP,25618419712,"Ticker
-CNP    39.24
-Name: 2025-10-10 00:00:00, dtype: float64"
-CRL,8220243968,"Ticker
-CRL    167.03
-Name: 2025-10-10 00:00:00, dtype: float64"
-SCHW,166927564800,"Ticker
-SCHW    91.96
-Name: 2025-10-10 00:00:00, dtype: float64"
-CVX,300007030784,"Ticker
-CVX    148.9
-Name: 2025-10-10 00:00:00, dtype: float64"
-CINF,24859158528,"Ticker
-CINF    158.97
-Name: 2025-10-10 00:00:00, dtype: float64"
-CSCO,268580225024,"Ticker
-CSCO    67.94
-Name: 2025-10-10 00:00:00, dtype: float64"
-C,172915539968,"Ticker
-C    93.93
-Name: 2025-10-10 00:00:00, dtype: float64"
-CFG,21243938816,"Ticker
-CFG    49.25
-Name: 2025-10-10 00:00:00, dtype: float64"
-CMS,22177763328,"Ticker
-CMS    74.09
-Name: 2025-10-10 00:00:00, dtype: float64"
-COIN,91729494016,"Ticker
-COIN    357.01
-Name: 2025-10-10 00:00:00, dtype: float64"
-CEG,115118325760,"Ticker
-CEG    368.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-GLW,71082221568,"Ticker
-GLW    82.98
-Name: 2025-10-10 00:00:00, dtype: float64"
-CRWD,123886510080,"Ticker
-CRWD    493.66
-Name: 2025-10-10 00:00:00, dtype: float64"
-CSX,66163191808,"Ticker
-CSX    35.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-CMI,56916652032,"Ticker
-CMI    413.08
-Name: 2025-10-10 00:00:00, dtype: float64"
-CVS,98802630656,"Ticker
-CVS    77.9
-Name: 2025-10-10 00:00:00, dtype: float64"
-DHR,144971808768,"Ticker
-DHR    202.46
-Name: 2025-10-10 00:00:00, dtype: float64"
-DDOG,55359803392,"Ticker
-DDOG    158.74
-Name: 2025-10-10 00:00:00, dtype: float64"
-DAY,10761821184,"Ticker
-DAY    68.11
-Name: 2025-10-10 00:00:00, dtype: float64"
-DELL,100912046080,"Ticker
-DELL    150.57
-Name: 2025-10-10 00:00:00, dtype: float64"
-DAL,37532299264,"Ticker
-DAL    57.48
-Name: 2025-10-10 00:00:00, dtype: float64"
-DVN,20630999040,"Ticker
-DVN    32.5
-Name: 2025-10-10 00:00:00, dtype: float64"
-FANG,40475951104,"Ticker
-FANG    139.82
-Name: 2025-10-10 00:00:00, dtype: float64"
-DLR,58520358912,"Ticker
-DLR    168.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-D,52033847296,"Ticker
-D    60.97
-Name: 2025-10-10 00:00:00, dtype: float64"
-DASH,113642356736,"Ticker
-DASH    266.02
-Name: 2025-10-10 00:00:00, dtype: float64"
-DHI,45189562368,"Ticker
-DHI    151.58
-Name: 2025-10-10 00:00:00, dtype: float64"
-DTE,29155706880,"Ticker
-DTE    140.45
-Name: 2025-10-10 00:00:00, dtype: float64"
-DUK,98773852160,"Ticker
-DUK    127.02
-Name: 2025-10-10 00:00:00, dtype: float64"
-DD,30859417600,"Ticker
-DD    73.7
-Name: 2025-10-10 00:00:00, dtype: float64"
-ETN,143682846720,"Ticker
-ETN    369.08
-Name: 2025-10-10 00:00:00, dtype: float64"
-EBAY,40467349504,"Ticker
-EBAY    88.55
-Name: 2025-10-10 00:00:00, dtype: float64"
-ECL,77168656384,"Ticker
-ECL    272.08
-Name: 2025-10-10 00:00:00, dtype: float64"
-EIX,20057548800,"Ticker
-EIX    52.12
-Name: 2025-10-10 00:00:00, dtype: float64"
-EA,49881243648,"Ticker
-EA    200.02
-Name: 2025-10-10 00:00:00, dtype: float64"
-EME,29711820800,"Ticker
-EME    663.74
-Name: 2025-10-10 00:00:00, dtype: float64"
-ETR,42524925952,"Ticker
-ETR    95.26
-Name: 2025-10-10 00:00:00, dtype: float64"
-EL,31585298432,"Ticker
-EL    87.65
-Name: 2025-10-10 00:00:00, dtype: float64"
-EG,14541320192,"Ticker
-EG    346.69
-Name: 2025-10-10 00:00:00, dtype: float64"
-EVRG,17830131712,"Ticker
-EVRG    77.47
-Name: 2025-10-10 00:00:00, dtype: float64"
-ES,26850181120,"Ticker
-ES    72.35
-Name: 2025-10-10 00:00:00, dtype: float64"
-EXC,47540101120,"Ticker
-EXC    47.07
-Name: 2025-10-10 00:00:00, dtype: float64"
-EXPE,26021099520,"Ticker
-EXPE    210.33
-Name: 2025-10-10 00:00:00, dtype: float64"
-EXPD,15353836544,"Ticker
-EXPD    113.13
-Name: 2025-10-10 00:00:00, dtype: float64"
-XOM,472069373952,"Ticker
-XOM    110.73
-Name: 2025-10-10 00:00:00, dtype: float64"
-FFIV,19058098176,"Ticker
-FFIV    331.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-FAST,52538802176,"Ticker
-FAST    45.78
-Name: 2025-10-10 00:00:00, dtype: float64"
-FRT,8295897600,"Ticker
-FRT    95.58
-Name: 2025-10-10 00:00:00, dtype: float64"
-FDX,53002674176,"Ticker
-FDX    224.63
-Name: 2025-10-10 00:00:00, dtype: float64"
-FITB,27161104384,"Ticker
-FITB    41.47
-Name: 2025-10-10 00:00:00, dtype: float64"
-FSLR,24228317184,"Ticker
-FSLR    225.91
-Name: 2025-10-10 00:00:00, dtype: float64"
-FE,27086016512,"Ticker
-FE    46.91
-Name: 2025-10-10 00:00:00, dtype: float64"
-F,45410205696,"Ticker
-F    11.41
-Name: 2025-10-10 00:00:00, dtype: float64"
-FOXA,24165314560,"Ticker
-FOXA    57.27
-Name: 2025-10-10 00:00:00, dtype: float64"
-FOX,24165314560,"Ticker
-FOX    51.4
-Name: 2025-10-10 00:00:00, dtype: float64"
-GRMN,47744274432,"Ticker
-GRMN    248.03
-Name: 2025-10-10 00:00:00, dtype: float64"
-GE,309107458048,"Ticker
-GE    291.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-GEHC,32420472832,"Ticker
-GEHC    71.01
-Name: 2025-10-10 00:00:00, dtype: float64"
-GEV,164575707136,"Ticker
-GEV    604.56
-Name: 2025-10-10 00:00:00, dtype: float64"
-GD,89558646784,"Ticker
-GD    332.94
-Name: 2025-10-10 00:00:00, dtype: float64"
-GM,52697505792,"Ticker
-GM    55.35
-Name: 2025-10-10 00:00:00, dtype: float64"
-GPC,18129289216,"Ticker
-GPC    130.34
-Name: 2025-10-10 00:00:00, dtype: float64"
+MMM,81108852736,"Ticker
+MMM    152.28
+Name: 2025-10-13 00:00:00, dtype: float64"
+AOS,9555436544,"Ticker
+AOS    68.19
+Name: 2025-10-13 00:00:00, dtype: float64"
+ABT,229984256000,"Ticker
+ABT    132.14
+Name: 2025-10-13 00:00:00, dtype: float64"
+ABBV,411440250880,"Ticker
+ABBV    232.9
+Name: 2025-10-13 00:00:00, dtype: float64"
+AMD,361764290560,"Ticker
+AMD    222.98
+Name: 2025-10-13 00:00:00, dtype: float64"
+AES,10271314944,"Ticker
+AES    14.43
+Name: 2025-10-13 00:00:00, dtype: float64"
+AFL,59430477824,"Ticker
+AFL    111.12
+Name: 2025-10-13 00:00:00, dtype: float64"
+A,39196766208,"Ticker
+A    138.26
+Name: 2025-10-13 00:00:00, dtype: float64"
+ALB,11363239936,"Ticker
+ALB    96.56
+Name: 2025-10-13 00:00:00, dtype: float64"
+ARE,12581286912,"Ticker
+ARE    73.69
+Name: 2025-10-13 00:00:00, dtype: float64"
+ALLE,14998246400,"Ticker
+ALLE    174.71
+Name: 2025-10-13 00:00:00, dtype: float64"
+LNT,17397387264,"Ticker
+LNT    67.68
+Name: 2025-10-13 00:00:00, dtype: float64"
+ALL,53911871488,"Ticker
+ALL    204.6
+Name: 2025-10-13 00:00:00, dtype: float64"
+GOOGL,2930283380736,"Ticker
+GOOGL    241.87
+Name: 2025-10-13 00:00:00, dtype: float64"
+GOOG,2930879496192,"Ticker
+GOOG    242.86
+Name: 2025-10-13 00:00:00, dtype: float64"
+MO,109906870272,"Ticker
+MO    65.43
+Name: 2025-10-13 00:00:00, dtype: float64"
+AEE,28000948224,"Ticker
+AEE    103.55
+Name: 2025-10-13 00:00:00, dtype: float64"
+AEP,62394503168,"Ticker
+AEP    116.67
+Name: 2025-10-13 00:00:00, dtype: float64"
+AXP,224589021184,"Ticker
+AXP    322.74
+Name: 2025-10-13 00:00:00, dtype: float64"
+AME,41694117888,"Ticker
+AME    180.76
+Name: 2025-10-13 00:00:00, dtype: float64"
+AMGN,158149181440,"Ticker
+AMGN    293.75
+Name: 2025-10-13 00:00:00, dtype: float64"
+APH,151858167808,"Ticker
+APH    124.38
+Name: 2025-10-13 00:00:00, dtype: float64"
+ADI,112766025728,"Ticker
+ADI    229.15
+Name: 2025-10-13 00:00:00, dtype: float64"
+APA,8085974016,"Ticker
+APA    22.59
+Name: 2025-10-13 00:00:00, dtype: float64"
+AAPL,3662747795456,"Ticker
+AAPL    246.84
+Name: 2025-10-13 00:00:00, dtype: float64"
+AMAT,174584184832,"Ticker
+AMAT    219.15
+Name: 2025-10-13 00:00:00, dtype: float64"
+APP,196570562560,"Ticker
+APP    581.14
+Name: 2025-10-13 00:00:00, dtype: float64"
+APTV,17846505472,"Ticker
+APTV    81.96
+Name: 2025-10-13 00:00:00, dtype: float64"
+ADM,29711923200,"Ticker
+ADM    61.84
+Name: 2025-10-13 00:00:00, dtype: float64"
+ANET,201180168192,"Ticker
+ANET    160.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+AIZ,10961759232,"Ticker
+AIZ    217.24
+Name: 2025-10-13 00:00:00, dtype: float64"
+ATO,28240109568,"Ticker
+ATO    175.93
+Name: 2025-10-13 00:00:00, dtype: float64"
+ADSK,65005469696,"Ticker
+ADSK    305.19
+Name: 2025-10-13 00:00:00, dtype: float64"
+AZO,67724558336,"Ticker
+AZO    4063.88
+Name: 2025-10-13 00:00:00, dtype: float64"
+BKR,44956086272,"Ticker
+BKR    45.6
+Name: 2025-10-13 00:00:00, dtype: float64"
+BAC,364014436352,"Ticker
+BAC    49.16
+Name: 2025-10-13 00:00:00, dtype: float64"
+BDX,53372899328,"Ticker
+BDX    186.21
+Name: 2025-10-13 00:00:00, dtype: float64"
+BBY,15837432832,"Ticker
+BBY    75.38
+Name: 2025-10-13 00:00:00, dtype: float64"
+TECH,9241962496,"Ticker
+TECH    59.36
+Name: 2025-10-13 00:00:00, dtype: float64"
+BIIB,21580935168,"Ticker
+BIIB    147.2
+Name: 2025-10-13 00:00:00, dtype: float64"
+BLK,179177701376,"Ticker
+BLK    1157.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+XYZ,45755371520,"Ticker
+XYZ    75.06
+Name: 2025-10-13 00:00:00, dtype: float64"
+BK,74720264192,"Ticker
+BK    105.95
+Name: 2025-10-13 00:00:00, dtype: float64"
+AVGO,1678620884992,"Ticker
+AVGO    355.39
+Name: 2025-10-13 00:00:00, dtype: float64"
+BG,16345066496,"Ticker
+BG    81.7
+Name: 2025-10-13 00:00:00, dtype: float64"
+BXP,12487621632,"Ticker
+BXP    70.63
+Name: 2025-10-13 00:00:00, dtype: float64"
+CHRW,14855868416,"Ticker
+CHRW    125.8
+Name: 2025-10-13 00:00:00, dtype: float64"
+CDNS,89549750272,"Ticker
+CDNS    328.64
+Name: 2025-10-13 00:00:00, dtype: float64"
+CAH,37077151744,"Ticker
+CAH    156.06
+Name: 2025-10-13 00:00:00, dtype: float64"
+CAT,234972626944,"Ticker
+CAT    501.57
+Name: 2025-10-13 00:00:00, dtype: float64"
+CBOE,25485475840,"Ticker
+CBOE    243.67
+Name: 2025-10-13 00:00:00, dtype: float64"
+CBRE,45269917696,"Ticker
+CBRE    152.14
+Name: 2025-10-13 00:00:00, dtype: float64"
+COR,61579493376,"Ticker
+COR    317.62
+Name: 2025-10-13 00:00:00, dtype: float64"
+CNP,25638004736,"Ticker
+CNP    39.27
+Name: 2025-10-13 00:00:00, dtype: float64"
+CRL,8380928000,"Ticker
+CRL    170.29
+Name: 2025-10-13 00:00:00, dtype: float64"
+CVX,304540385280,"Ticker
+CVX    151.15
+Name: 2025-10-13 00:00:00, dtype: float64"
+CINF,24893954048,"Ticker
+CINF    159.19
+Name: 2025-10-13 00:00:00, dtype: float64"
+CSCO,271011430400,"Ticker
+CSCO    68.55
+Name: 2025-10-13 00:00:00, dtype: float64"
+C,177222500352,"Ticker
+C    96.25
+Name: 2025-10-13 00:00:00, dtype: float64"
+CFG,21714108416,"Ticker
+CFG    50.34
+Name: 2025-10-13 00:00:00, dtype: float64"
+CMS,22040068096,"Ticker
+CMS    73.63
+Name: 2025-10-13 00:00:00, dtype: float64"
+COIN,92477186048,"Ticker
+COIN    359.92
+Name: 2025-10-13 00:00:00, dtype: float64"
+CEG,119651336192,"Ticker
+CEG    382.92
+Name: 2025-10-13 00:00:00, dtype: float64"
+GLW,74063249408,"Ticker
+GLW    86.46
+Name: 2025-10-13 00:00:00, dtype: float64"
+CRWD,126638235648,"Ticker
+CRWD    504.62
+Name: 2025-10-13 00:00:00, dtype: float64"
+CSX,66228441088,"Ticker
+CSX    35.53
+Name: 2025-10-13 00:00:00, dtype: float64"
+CMI,57533935616,"Ticker
+CMI    417.56
+Name: 2025-10-13 00:00:00, dtype: float64"
+CVS,99145072640,"Ticker
+CVS    78.17
+Name: 2025-10-13 00:00:00, dtype: float64"
+DHR,147392053248,"Ticker
+DHR    205.84
+Name: 2025-10-13 00:00:00, dtype: float64"
+DDOG,56242126848,"Ticker
+DDOG    161.27
+Name: 2025-10-13 00:00:00, dtype: float64"
+DAY,10785522688,"Ticker
+DAY    68.26
+Name: 2025-10-13 00:00:00, dtype: float64"
+DELL,103465508864,"Ticker
+DELL    154.44
+Name: 2025-10-13 00:00:00, dtype: float64"
+DAL,38496591872,"Ticker
+DAL    58.96
+Name: 2025-10-13 00:00:00, dtype: float64"
+DVN,20932528128,"Ticker
+DVN    32.98
+Name: 2025-10-13 00:00:00, dtype: float64"
+FANG,41344409600,"Ticker
+FANG    142.82
+Name: 2025-10-13 00:00:00, dtype: float64"
+DLR,59437289472,"Ticker
+DLR    171.13
+Name: 2025-10-13 00:00:00, dtype: float64"
+D,51922898944,"Ticker
+D    60.84
+Name: 2025-10-13 00:00:00, dtype: float64"
+DASH,115859505152,"Ticker
+DASH    271.21
+Name: 2025-10-13 00:00:00, dtype: float64"
+DHI,45547311104,"Ticker
+DHI    152.78
+Name: 2025-10-13 00:00:00, dtype: float64"
+DTE,29147404288,"Ticker
+DTE    140.41
+Name: 2025-10-13 00:00:00, dtype: float64"
+DUK,98050662400,"Ticker
+DUK    126.09
+Name: 2025-10-13 00:00:00, dtype: float64"
+DD,31828748288,"Ticker
+DD    76.01
+Name: 2025-10-13 00:00:00, dtype: float64"
+ETN,147527172096,"Ticker
+ETN    378.95
+Name: 2025-10-13 00:00:00, dtype: float64"
+EBAY,40819240960,"Ticker
+EBAY    89.32
+Name: 2025-10-13 00:00:00, dtype: float64"
+ECL,77106970624,"Ticker
+ECL    271.86
+Name: 2025-10-13 00:00:00, dtype: float64"
+EIX,20282677248,"Ticker
+EIX    52.71
+Name: 2025-10-13 00:00:00, dtype: float64"
+EA,49936474112,"Ticker
+EA    200.27
+Name: 2025-10-13 00:00:00, dtype: float64"
+EME,30573981696,"Ticker
+EME    683.0
+Name: 2025-10-13 00:00:00, dtype: float64"
+ETR,42828484608,"Ticker
+ETR    95.95
+Name: 2025-10-13 00:00:00, dtype: float64"
+EL,33891586048,"Ticker
+EL    94.05
+Name: 2025-10-13 00:00:00, dtype: float64"
+EG,14525171712,"Ticker
+EG    346.3
+Name: 2025-10-13 00:00:00, dtype: float64"
+EVRG,17807116288,"Ticker
+EVRG    77.37
+Name: 2025-10-13 00:00:00, dtype: float64"
+ES,26315778048,"Ticker
+ES    70.91
+Name: 2025-10-13 00:00:00, dtype: float64"
+EXC,47136104448,"Ticker
+EXC    46.67
+Name: 2025-10-13 00:00:00, dtype: float64"
+EXPE,26295748608,"Ticker
+EXPE    212.55
+Name: 2025-10-13 00:00:00, dtype: float64"
+EXPD,15467161600,"Ticker
+EXPD    113.96
+Name: 2025-10-13 00:00:00, dtype: float64"
+XOM,478506844160,"Ticker
+XOM    112.25
+Name: 2025-10-13 00:00:00, dtype: float64"
+FFIV,19564781568,"Ticker
+FFIV    340.57
+Name: 2025-10-13 00:00:00, dtype: float64"
+FAST,50036953088,"Ticker
+FAST    43.6
+Name: 2025-10-13 00:00:00, dtype: float64"
+FRT,8377484800,"Ticker
+FRT    96.52
+Name: 2025-10-13 00:00:00, dtype: float64"
+FDX,54059753472,"Ticker
+FDX    229.11
+Name: 2025-10-13 00:00:00, dtype: float64"
+FITB,27580276736,"Ticker
+FITB    42.12
+Name: 2025-10-13 00:00:00, dtype: float64"
+FSLR,25042325504,"Ticker
+FSLR    233.5
+Name: 2025-10-13 00:00:00, dtype: float64"
+FE,26993633280,"Ticker
+FE    46.75
+Name: 2025-10-13 00:00:00, dtype: float64"
+F,46066880512,"Ticker
+F    11.57
+Name: 2025-10-13 00:00:00, dtype: float64"
+FOXA,24177971200,"Ticker
+FOXA    57.3
+Name: 2025-10-13 00:00:00, dtype: float64"
+FOX,24155912192,"Ticker
+FOX    51.38
+Name: 2025-10-13 00:00:00, dtype: float64"
+GRMN,48443027456,"Ticker
+GRMN    251.66
+Name: 2025-10-13 00:00:00, dtype: float64"
+GE,314620674048,"Ticker
+GE    296.69
+Name: 2025-10-13 00:00:00, dtype: float64"
+GEHC,32950081536,"Ticker
+GEHC    72.17
+Name: 2025-10-13 00:00:00, dtype: float64"
+GEV,171388108800,"Ticker
+GEV    629.59
+Name: 2025-10-13 00:00:00, dtype: float64"
+GD,90018619392,"Ticker
+GD    334.65
+Name: 2025-10-13 00:00:00, dtype: float64"
+GM,53106900992,"Ticker
+GM    55.78
+Name: 2025-10-13 00:00:00, dtype: float64"
+GPC,18204399616,"Ticker
+GPC    130.88
+Name: 2025-10-13 00:00:00, dtype: float64"
 GILD,145397760000,"Ticker
 GILD    117.18
-Name: 2025-10-10 00:00:00, dtype: float64"
-GPN,20099997696,"Ticker
-GPN    82.85
-Name: 2025-10-10 00:00:00, dtype: float64"
-GL,11016480768,"Ticker
-GL    136.0
-Name: 2025-10-10 00:00:00, dtype: float64"
-GS,231387889664,"Ticker
-GS    764.36
-Name: 2025-10-10 00:00:00, dtype: float64"
-HAL,18731667456,"Ticker
-HAL    21.97
-Name: 2025-10-10 00:00:00, dtype: float64"
-HIG,36276768768,"Ticker
-HIG    129.02
-Name: 2025-10-10 00:00:00, dtype: float64"
-HCA,97140064256,"Ticker
-HCA    415.14
-Name: 2025-10-10 00:00:00, dtype: float64"
-DOC,12543368192,"Ticker
-DOC    18.05
-Name: 2025-10-10 00:00:00, dtype: float64"
-HSY,38949404672,"Ticker
-HSY    192.13
-Name: 2025-10-10 00:00:00, dtype: float64"
-HPE,32194582528,"Ticker
-HPE    24.4
-Name: 2025-10-10 00:00:00, dtype: float64"
-HOLX,15071130624,"Ticker
-HOLX    67.76
-Name: 2025-10-10 00:00:00, dtype: float64"
-HD,374016507904,"Ticker
-HD    375.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-HST,11017520128,"Ticker
-HST    15.82
-Name: 2025-10-10 00:00:00, dtype: float64"
-HWM,74211524608,"Ticker
-HWM    184.09
-Name: 2025-10-10 00:00:00, dtype: float64"
-HPQ,23881631744,"Ticker
-HPQ    25.55
-Name: 2025-10-10 00:00:00, dtype: float64"
-HUM,33702567936,"Ticker
-HUM    280.22
-Name: 2025-10-10 00:00:00, dtype: float64"
-HBAN,22759053312,"Ticker
-HBAN    15.6
-Name: 2025-10-10 00:00:00, dtype: float64"
-HII,11104706560,"Ticker
-HII    282.99
-Name: 2025-10-10 00:00:00, dtype: float64"
-IBM,258794684416,"Ticker
-IBM    277.82
-Name: 2025-10-10 00:00:00, dtype: float64"
-IDXX,49294897152,"Ticker
-IDXX    616.15
-Name: 2025-10-10 00:00:00, dtype: float64"
-INCY,16364141568,"Ticker
-INCY    83.8
-Name: 2025-10-10 00:00:00, dtype: float64"
-PODD,22139858944,"Ticker
-PODD    314.52
-Name: 2025-10-10 00:00:00, dtype: float64"
-INTC,172829736960,"Ticker
-INTC    36.37
-Name: 2025-10-10 00:00:00, dtype: float64"
-IBKR,117304639488,"Ticker
-IBKR    69.01
-Name: 2025-10-10 00:00:00, dtype: float64"
-IPG,9566878720,"Ticker
-IPG    26.12
-Name: 2025-10-10 00:00:00, dtype: float64"
-IVZ,10020805632,"Ticker
-IVZ    22.47
-Name: 2025-10-10 00:00:00, dtype: float64"
-IQV,33688899584,"Ticker
-IQV    198.17
-Name: 2025-10-10 00:00:00, dtype: float64"
-IRM,30078261248,"Ticker
-IRM    101.84
-Name: 2025-10-10 00:00:00, dtype: float64"
-J,18065547264,"Ticker
-J    151.13
-Name: 2025-10-10 00:00:00, dtype: float64"
-JNJ,459318394880,"Ticker
-JNJ    190.72
-Name: 2025-10-10 00:00:00, dtype: float64"
-JCI,69070381056,"Ticker
-JCI    105.55
-Name: 2025-10-10 00:00:00, dtype: float64"
-JPM,827373453312,"Ticker
-JPM    300.89
-Name: 2025-10-10 00:00:00, dtype: float64"
-K,28807868416,"Ticker
-K    82.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-KEY,18860072960,"Ticker
-KEY    17.2
-Name: 2025-10-10 00:00:00, dtype: float64"
-KEYS,27409354752,"Ticker
-KEYS    159.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-KMI,60218306560,"Ticker
+Name: 2025-10-13 00:00:00, dtype: float64"
+GPN,20389914624,"Ticker
+GPN    84.04
+Name: 2025-10-13 00:00:00, dtype: float64"
+GL,11040782336,"Ticker
+GL    136.3
+Name: 2025-10-13 00:00:00, dtype: float64"
+GS,237504364544,"Ticker
+GS    784.57
+Name: 2025-10-13 00:00:00, dtype: float64"
+HAL,18812665856,"Ticker
+HAL    22.07
+Name: 2025-10-13 00:00:00, dtype: float64"
+HIG,36154458112,"Ticker
+HIG    128.59
+Name: 2025-10-13 00:00:00, dtype: float64"
+HCA,96922443776,"Ticker
+HCA    414.55
+Name: 2025-10-13 00:00:00, dtype: float64"
+DOC,12477350912,"Ticker
+DOC    17.97
+Name: 2025-10-13 00:00:00, dtype: float64"
+HSY,37974302720,"Ticker
+HSY    187.32
+Name: 2025-10-13 00:00:00, dtype: float64"
+HPE,33527226368,"Ticker
+HPE    25.42
+Name: 2025-10-13 00:00:00, dtype: float64"
+HOLX,15066681344,"Ticker
+HOLX    67.74
+Name: 2025-10-13 00:00:00, dtype: float64"
+HD,377888604160,"Ticker
+HD    379.64
+Name: 2025-10-13 00:00:00, dtype: float64"
+HST,11108057088,"Ticker
+HST    15.95
+Name: 2025-10-13 00:00:00, dtype: float64"
+HWM,76001411072,"Ticker
+HWM    188.53
+Name: 2025-10-13 00:00:00, dtype: float64"
+HPQ,24582658048,"Ticker
+HPQ    26.3
+Name: 2025-10-13 00:00:00, dtype: float64"
+HUM,32809551872,"Ticker
+HUM    272.8
+Name: 2025-10-13 00:00:00, dtype: float64"
+HII,11226744832,"Ticker
+HII    286.1
+Name: 2025-10-13 00:00:00, dtype: float64"
+IBM,262087606272,"Ticker
+IBM    281.36
+Name: 2025-10-13 00:00:00, dtype: float64"
+IDXX,50012536832,"Ticker
+IDXX    625.12
+Name: 2025-10-13 00:00:00, dtype: float64"
+INCY,16329967616,"Ticker
+INCY    83.62
+Name: 2025-10-13 00:00:00, dtype: float64"
+PODD,22198286336,"Ticker
+PODD    315.35
+Name: 2025-10-13 00:00:00, dtype: float64"
+INTC,177135009792,"Ticker
+INTC    37.23
+Name: 2025-10-13 00:00:00, dtype: float64"
+IBKR,119488897024,"Ticker
+IBKR    70.29
+Name: 2025-10-13 00:00:00, dtype: float64"
+IPG,9550396416,"Ticker
+IPG    26.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+IVZ,10308452352,"Ticker
+IVZ    23.11
+Name: 2025-10-13 00:00:00, dtype: float64"
+IQV,34209099776,"Ticker
+IQV    201.23
+Name: 2025-10-13 00:00:00, dtype: float64"
+IRM,30581831680,"Ticker
+IRM    103.54
+Name: 2025-10-13 00:00:00, dtype: float64"
+J,18216163328,"Ticker
+J    152.39
+Name: 2025-10-13 00:00:00, dtype: float64"
+JNJ,456572895232,"Ticker
+JNJ    189.58
+Name: 2025-10-13 00:00:00, dtype: float64"
+JCI,70163202048,"Ticker
+JCI    107.22
+Name: 2025-10-13 00:00:00, dtype: float64"
+JPM,847955361792,"Ticker
+JPM    308.38
+Name: 2025-10-13 00:00:00, dtype: float64"
+K,28800913408,"Ticker
+K    82.84
+Name: 2025-10-13 00:00:00, dtype: float64"
+KEY,19199991808,"Ticker
+KEY    17.51
+Name: 2025-10-13 00:00:00, dtype: float64"
+KEYS,28011710464,"Ticker
+KEYS    162.99
+Name: 2025-10-13 00:00:00, dtype: float64"
+KMI,60229414912,"Ticker
 KMI    27.1
-Name: 2025-10-10 00:00:00, dtype: float64"
-KLAC,129412972544,"Ticker
-KLAC    982.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-LHX,54695292928,"Ticker
-LHX    292.34
-Name: 2025-10-10 00:00:00, dtype: float64"
-LH,23091828736,"Ticker
-LH    277.88
-Name: 2025-10-10 00:00:00, dtype: float64"
-LRCX,165661802496,"Ticker
-LRCX    131.37
-Name: 2025-10-10 00:00:00, dtype: float64"
-LW,8883720192,"Ticker
-LW    63.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-LVS,34054965248,"Ticker
-LVS    49.61
-Name: 2025-10-10 00:00:00, dtype: float64"
-LDOS,24123746304,"Ticker
-LDOS    188.03
-Name: 2025-10-10 00:00:00, dtype: float64"
-LEN,30059655168,"Ticker
-LEN    118.77
-Name: 2025-10-10 00:00:00, dtype: float64"
-LLY,747187732480,"Ticker
-LLY    833.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-LYV,35479089152,"Ticker
-LYV    152.96
-Name: 2025-10-10 00:00:00, dtype: float64"
-LMT,117911527424,"Ticker
-LMT    505.05
-Name: 2025-10-10 00:00:00, dtype: float64"
-L,20921026560,"Ticker
-L    100.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-LOW,130234761216,"Ticker
-LOW    232.22
-Name: 2025-10-10 00:00:00, dtype: float64"
-MPC,54994235392,"Ticker
-MPC    180.89
-Name: 2025-10-10 00:00:00, dtype: float64"
-MLM,38136311808,"Ticker
-MLM    632.38
-Name: 2025-10-10 00:00:00, dtype: float64"
-MCK,94973698048,"Ticker
-MCK    763.55
-Name: 2025-10-10 00:00:00, dtype: float64"
-MDT,122432356352,"Ticker
-MDT    95.45
-Name: 2025-10-10 00:00:00, dtype: float64"
-MRK,214784376832,"Ticker
-MRK    85.99
-Name: 2025-10-10 00:00:00, dtype: float64"
-MET,53049126912,"Ticker
-MET    79.77
-Name: 2025-10-10 00:00:00, dtype: float64"
-MTD,26236381184,"Ticker
-MTD    1273.67
-Name: 2025-10-10 00:00:00, dtype: float64"
-MU,203839848448,"Ticker
-MU    181.6
-Name: 2025-10-10 00:00:00, dtype: float64"
-MSFT,3798050537472,"Ticker
-MSFT    510.96
-Name: 2025-10-10 00:00:00, dtype: float64"
-MHK,7302985216,"Ticker
-MHK    117.54
-Name: 2025-10-10 00:00:00, dtype: float64"
-MPWR,43315441664,"Ticker
-MPWR    904.44
-Name: 2025-10-10 00:00:00, dtype: float64"
-MNST,67978932224,"Ticker
-MNST    69.62
-Name: 2025-10-10 00:00:00, dtype: float64"
-MS,242419548160,"Ticker
-MS    151.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-MOS,9632432128,"Ticker
-MOS    30.35
-Name: 2025-10-10 00:00:00, dtype: float64"
-MSI,76021350400,"Ticker
-MSI    456.3
-Name: 2025-10-10 00:00:00, dtype: float64"
-NTAP,22744518656,"Ticker
-NTAP    113.94
-Name: 2025-10-10 00:00:00, dtype: float64"
-NEM,93522001920,"Ticker
-NEM    85.14
-Name: 2025-10-10 00:00:00, dtype: float64"
-NEE,171642028032,"Ticker
-NEE    83.35
-Name: 2025-10-10 00:00:00, dtype: float64"
-NI,20180846592,"Ticker
-NI    42.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-NDSN,12819467264,"Ticker
-NDSN    228.16
-Name: 2025-10-10 00:00:00, dtype: float64"
-NSC,64706674688,"Ticker
-NSC    288.37
-Name: 2025-10-10 00:00:00, dtype: float64"
-NTRS,23779188736,"Ticker
-NTRS    124.72
-Name: 2025-10-10 00:00:00, dtype: float64"
-NOC,89273155584,"Ticker
-NOC    623.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-NCLH,10220384256,"Ticker
-NCLH    22.45
-Name: 2025-10-10 00:00:00, dtype: float64"
-NRG,31032100864,"Ticker
-NRG    160.43
-Name: 2025-10-10 00:00:00, dtype: float64"
-NVDA,4456596897792,"Ticker
-NVDA    183.16
-Name: 2025-10-10 00:00:00, dtype: float64"
-NVR,20587612160,"Ticker
-NVR    7450.9
-Name: 2025-10-10 00:00:00, dtype: float64"
-NXPI,51776774144,"Ticker
-NXPI    205.37
-Name: 2025-10-10 00:00:00, dtype: float64"
-ORLY,86673940480,"Ticker
-ORLY    102.15
-Name: 2025-10-10 00:00:00, dtype: float64"
-OXY,41494134784,"Ticker
-OXY    42.15
-Name: 2025-10-10 00:00:00, dtype: float64"
-OMC,14819801088,"Ticker
-OMC    76.5
-Name: 2025-10-10 00:00:00, dtype: float64"
-ORCL,835168174080,"Ticker
-ORCL    292.96
-Name: 2025-10-10 00:00:00, dtype: float64"
-PKG,18603114496,"Ticker
-PKG    206.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-PLTR,416203767808,"Ticker
-PLTR    175.44
-Name: 2025-10-10 00:00:00, dtype: float64"
-PANW,141161431040,"Ticker
-PANW    208.55
-Name: 2025-10-10 00:00:00, dtype: float64"
-PSKY,18634608640,"Ticker
-PSKY    17.0
-Name: 2025-10-10 00:00:00, dtype: float64"
-PH,90689069056,"Ticker
-PH    716.66
-Name: 2025-10-10 00:00:00, dtype: float64"
-PNR,17575069696,"Ticker
-PNR    107.21
-Name: 2025-10-10 00:00:00, dtype: float64"
-PEP,205210419200,"Ticker
-PEP    150.08
-Name: 2025-10-10 00:00:00, dtype: float64"
-PFE,140887949312,"Ticker
-PFE    24.78
-Name: 2025-10-10 00:00:00, dtype: float64"
-PCG,34857697280,"Ticker
-PCG    15.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-PSX,51226791936,"Ticker
-PSX    126.76
-Name: 2025-10-10 00:00:00, dtype: float64"
-PNC,72178581504,"Ticker
-PNC    183.95
-Name: 2025-10-10 00:00:00, dtype: float64"
-PPL,27532152832,"Ticker
-PPL    37.23
-Name: 2025-10-10 00:00:00, dtype: float64"
-PFG,17692270592,"Ticker
-PFG    79.42
-Name: 2025-10-10 00:00:00, dtype: float64"
-PLD,103295303680,"Ticker
-PLD    111.23
-Name: 2025-10-10 00:00:00, dtype: float64"
-PTC,23587182592,"Ticker
-PTC    196.9
-Name: 2025-10-10 00:00:00, dtype: float64"
-PHM,23683600384,"Ticker
-PHM    120.04
-Name: 2025-10-10 00:00:00, dtype: float64"
-PWR,62226366464,"Ticker
-PWR    417.61
-Name: 2025-10-10 00:00:00, dtype: float64"
-QCOM,165642698752,"Ticker
-QCOM    153.59
-Name: 2025-10-10 00:00:00, dtype: float64"
-DGX,20583342080,"Ticker
-DGX    184.07
-Name: 2025-10-10 00:00:00, dtype: float64"
-RL,18742894592,"Ticker
-RL    309.42
-Name: 2025-10-10 00:00:00, dtype: float64"
-RJF,31957262336,"Ticker
-RJF    160.28
-Name: 2025-10-10 00:00:00, dtype: float64"
-RTX,211088048128,"Ticker
-RTX    157.7
-Name: 2025-10-10 00:00:00, dtype: float64"
-O,53267472384,"Ticker
-O    58.26
-Name: 2025-10-10 00:00:00, dtype: float64"
-REG,12853079040,"Ticker
-REG    70.37
-Name: 2025-10-10 00:00:00, dtype: float64"
-REGN,59843690496,"Ticker
-REGN    564.63
-Name: 2025-10-10 00:00:00, dtype: float64"
-RF,21558169600,"Ticker
-RF    24.16
-Name: 2025-10-10 00:00:00, dtype: float64"
-RMD,39695880192,"Ticker
-RMD    272.0
-Name: 2025-10-10 00:00:00, dtype: float64"
-HOOD,123490295808,"Ticker
-HOOD    138.96
-Name: 2025-10-10 00:00:00, dtype: float64"
-ROK,37524979712,"Ticker
-ROK    333.75
-Name: 2025-10-10 00:00:00, dtype: float64"
-ROL,27624480768,"Ticker
-ROL    57.0
-Name: 2025-10-10 00:00:00, dtype: float64"
-ROST,48039174144,"Ticker
-ROST    147.71
-Name: 2025-10-10 00:00:00, dtype: float64"
-STX,45656137728,"Ticker
-STX    214.38
-Name: 2025-10-10 00:00:00, dtype: float64"
-SRE,58853011456,"Ticker
-SRE    90.2
-Name: 2025-10-10 00:00:00, dtype: float64"
-SPG,66124390400,"Ticker
-SPG    175.3
-Name: 2025-10-10 00:00:00, dtype: float64"
-SWKS,10265250816,"Ticker
-SWKS    69.16
-Name: 2025-10-10 00:00:00, dtype: float64"
-SNA,17074635776,"Ticker
-SNA    327.33
-Name: 2025-10-10 00:00:00, dtype: float64"
-SO,108123652096,"Ticker
-SO    98.29
-Name: 2025-10-10 00:00:00, dtype: float64"
-LUV,16433124352,"Ticker
-LUV    31.29
-Name: 2025-10-10 00:00:00, dtype: float64"
-SWK,9973264384,"Ticker
-SWK    64.43
-Name: 2025-10-10 00:00:00, dtype: float64"
-STT,31490181120,"Ticker
-STT    111.0
-Name: 2025-10-10 00:00:00, dtype: float64"
-STLD,20789704704,"Ticker
-STLD    141.23
-Name: 2025-10-10 00:00:00, dtype: float64"
-STE,23227039744,"Ticker
-STE    235.83
-Name: 2025-10-10 00:00:00, dtype: float64"
-SMCI,31413286912,"Ticker
-SMCI    52.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-SYF,25307353088,"Ticker
-SYF    68.02
-Name: 2025-10-10 00:00:00, dtype: float64"
-SYY,37538910208,"Ticker
-SYY    78.45
-Name: 2025-10-10 00:00:00, dtype: float64"
-TROW,22285717504,"Ticker
-TROW    101.43
-Name: 2025-10-10 00:00:00, dtype: float64"
-TTWO,46480957440,"Ticker
-TTWO    251.97
-Name: 2025-10-10 00:00:00, dtype: float64"
-TPR,22402136064,"Ticker
-TPR    108.22
-Name: 2025-10-10 00:00:00, dtype: float64"
-TEL,63401467904,"Ticker
-TEL    214.57
-Name: 2025-10-10 00:00:00, dtype: float64"
-TDY,26606407680,"Ticker
-TDY    567.44
-Name: 2025-10-10 00:00:00, dtype: float64"
-TER,21010432000,"Ticker
-TER    132.08
-Name: 2025-10-10 00:00:00, dtype: float64"
-TSLA,1374916706304,"Ticker
-TSLA    413.49
-Name: 2025-10-10 00:00:00, dtype: float64"
-TXT,14529077248,"Ticker
-TXT    81.53
-Name: 2025-10-10 00:00:00, dtype: float64"
-TMO,198170836992,"Ticker
-TMO    524.8
-Name: 2025-10-10 00:00:00, dtype: float64"
-TJX,156234350592,"Ticker
-TJX    140.38
-Name: 2025-10-10 00:00:00, dtype: float64"
-TKO,15363704832,"Ticker
-TKO    187.05
-Name: 2025-10-10 00:00:00, dtype: float64"
-TRV,60813152256,"Ticker
-TRV    270.12
-Name: 2025-10-10 00:00:00, dtype: float64"
-TFC,54556004352,"Ticker
-TFC    42.31
-Name: 2025-10-10 00:00:00, dtype: float64"
-USB,70464258048,"Ticker
-USB    45.28
-Name: 2025-10-10 00:00:00, dtype: float64"
-UBER,194778103808,"Ticker
-UBER    93.4
-Name: 2025-10-10 00:00:00, dtype: float64"
-ULTA,24628817920,"Ticker
-ULTA    549.28
-Name: 2025-10-10 00:00:00, dtype: float64"
-UNP,133719711744,"Ticker
-UNP    225.45
-Name: 2025-10-10 00:00:00, dtype: float64"
-UAL,31295180800,"Ticker
-UAL    96.67
-Name: 2025-10-10 00:00:00, dtype: float64"
-URI,61126094848,"Ticker
-URI    950.03
-Name: 2025-10-10 00:00:00, dtype: float64"
-UNH,321061289984,"Ticker
-UNH    354.5
-Name: 2025-10-10 00:00:00, dtype: float64"
-UHS,12480183296,"Ticker
-UHS    196.11
-Name: 2025-10-10 00:00:00, dtype: float64"
-VLO,49089191936,"Ticker
-VLO    158.02
-Name: 2025-10-10 00:00:00, dtype: float64"
-VTR,30781335552,"Ticker
-VTR    67.73
-Name: 2025-10-10 00:00:00, dtype: float64"
-VLTO,25280145408,"Ticker
-VLTO    101.87
-Name: 2025-10-10 00:00:00, dtype: float64"
-VTRS,11355594752,"Ticker
-VTRS    9.74
-Name: 2025-10-10 00:00:00, dtype: float64"
-VST,66700169216,"Ticker
-VST    196.86
-Name: 2025-10-10 00:00:00, dtype: float64"
-VMC,39826186240,"Ticker
-VMC    301.43
-Name: 2025-10-10 00:00:00, dtype: float64"
-WRB,29452083200,"Ticker
-WRB    77.65
-Name: 2025-10-10 00:00:00, dtype: float64"
-WMT,811955126272,"Ticker
-WMT    101.84
-Name: 2025-10-10 00:00:00, dtype: float64"
-WBD,42335703040,"Ticker
-WBD    17.1
-Name: 2025-10-10 00:00:00, dtype: float64"
-WEC,37056479232,"Ticker
-WEC    115.13
-Name: 2025-10-10 00:00:00, dtype: float64"
-WFC,248651104256,"Ticker
-WFC    77.62
-Name: 2025-10-10 00:00:00, dtype: float64"
-WELL,110984978432,"Ticker
-WELL    165.94
-Name: 2025-10-10 00:00:00, dtype: float64"
-WST,18823180288,"Ticker
-WST    261.77
-Name: 2025-10-10 00:00:00, dtype: float64"
-WDC,39565459456,"Ticker
-WDC    115.42
-Name: 2025-10-10 00:00:00, dtype: float64"
-WSM,22098855936,"Ticker
-WSM    181.45
-Name: 2025-10-10 00:00:00, dtype: float64"
-WMB,76457918464,"Ticker
-WMB    62.61
-Name: 2025-10-10 00:00:00, dtype: float64"
-WTW,32872697856,"Ticker
-WTW    336.99
-Name: 2025-10-10 00:00:00, dtype: float64"
-WYNN,12465745920,"Ticker
-WYNN    119.89
-Name: 2025-10-10 00:00:00, dtype: float64"
-XEL,47864119296,"Ticker
-XEL    80.93
-Name: 2025-10-10 00:00:00, dtype: float64"
-XYL,35128889344,"Ticker
-XYL    144.32
-Name: 2025-10-10 00:00:00, dtype: float64"
-YUM,39304601600,"Ticker
-YUM    141.62
-Name: 2025-10-10 00:00:00, dtype: float64"
+Name: 2025-10-13 00:00:00, dtype: float64"
+KLAC,134693519360,"Ticker
+KLAC    1022.85
+Name: 2025-10-13 00:00:00, dtype: float64"
+LHX,54753292288,"Ticker
+LHX    292.65
+Name: 2025-10-13 00:00:00, dtype: float64"
+LH,22996262912,"Ticker
+LH    276.73
+Name: 2025-10-13 00:00:00, dtype: float64"
+LW,8801502208,"Ticker
+LW    63.16
+Name: 2025-10-13 00:00:00, dtype: float64"
+LVS,32057384960,"Ticker
+LVS    46.71
+Name: 2025-10-13 00:00:00, dtype: float64"
+LDOS,24018298880,"Ticker
+LDOS    187.21
+Name: 2025-10-13 00:00:00, dtype: float64"
+LEN,29885024256,"Ticker
+LEN    118.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+LLY,742337937408,"Ticker
+LLY    828.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+LMT,117618532352,"Ticker
+LMT    503.8
+Name: 2025-10-13 00:00:00, dtype: float64"
+L,20885764096,"Ticker
+L    100.69
+Name: 2025-10-13 00:00:00, dtype: float64"
+MPC,56219435008,"Ticker
+MPC    184.92
+Name: 2025-10-13 00:00:00, dtype: float64"
+MLM,38326276096,"Ticker
+MLM    635.53
+Name: 2025-10-13 00:00:00, dtype: float64"
+MCK,94790238208,"Ticker
+MCK    762.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+MDT,122150174720,"Ticker
+MDT    95.23
+Name: 2025-10-13 00:00:00, dtype: float64"
+MRK,214226141184,"Ticker
+MRK    85.77
+Name: 2025-10-13 00:00:00, dtype: float64"
+MET,53488046080,"Ticker
+MET    80.43
+Name: 2025-10-13 00:00:00, dtype: float64"
+MTD,26284376064,"Ticker
+MTD    1276.0
+Name: 2025-10-13 00:00:00, dtype: float64"
+MU,213324677120,"Ticker
+MU    190.12
+Name: 2025-10-13 00:00:00, dtype: float64"
+MSFT,3824146186240,"Ticker
+MSFT    514.47
+Name: 2025-10-13 00:00:00, dtype: float64"
+MHK,7376922112,"Ticker
+MHK    118.73
+Name: 2025-10-13 00:00:00, dtype: float64"
+MPWR,46544560128,"Ticker
+MPWR    971.86
+Name: 2025-10-13 00:00:00, dtype: float64"
+MNST,66809163776,"Ticker
+MNST    68.42
+Name: 2025-10-13 00:00:00, dtype: float64"
+MS,247001022464,"Ticker
+MS    154.73
+Name: 2025-10-13 00:00:00, dtype: float64"
+MSI,76040511488,"Ticker
+MSI    456.42
+Name: 2025-10-13 00:00:00, dtype: float64"
+NTAP,23410245632,"Ticker
+NTAP    117.28
+Name: 2025-10-13 00:00:00, dtype: float64"
+NEM,96608641024,"Ticker
+NEM    87.95
+Name: 2025-10-13 00:00:00, dtype: float64"
+NEE,172496633856,"Ticker
+NEE    83.76
+Name: 2025-10-13 00:00:00, dtype: float64"
+NI,20237348864,"Ticker
+NI    42.98
+Name: 2025-10-13 00:00:00, dtype: float64"
+NDSN,12994767872,"Ticker
+NDSN    231.28
+Name: 2025-10-13 00:00:00, dtype: float64"
+NSC,64756039680,"Ticker
+NSC    288.59
+Name: 2025-10-13 00:00:00, dtype: float64"
+NTRS,24133818368,"Ticker
+NTRS    126.58
+Name: 2025-10-13 00:00:00, dtype: float64"
+NOC,88798502912,"Ticker
+NOC    620.17
+Name: 2025-10-13 00:00:00, dtype: float64"
+NCLH,10427523072,"Ticker
+NCLH    22.91
+Name: 2025-10-13 00:00:00, dtype: float64"
+NRG,32087267328,"Ticker
+NRG    165.88
+Name: 2025-10-13 00:00:00, dtype: float64"
+NVDA,4623005908992,"Ticker
+NVDA    189.87
+Name: 2025-10-13 00:00:00, dtype: float64"
+NXPI,53685280768,"Ticker
+NXPI    212.94
+Name: 2025-10-13 00:00:00, dtype: float64"
+ORLY,86869090304,"Ticker
+ORLY    102.38
+Name: 2025-10-13 00:00:00, dtype: float64"
+OXY,41784545280,"Ticker
+OXY    42.44
+Name: 2025-10-13 00:00:00, dtype: float64"
+OMC,14769433600,"Ticker
+OMC    76.24
+Name: 2025-10-13 00:00:00, dtype: float64"
+ORCL,879098920960,"Ticker
+ORCL    308.34
+Name: 2025-10-13 00:00:00, dtype: float64"
+PKG,18746179584,"Ticker
+PKG    208.34
+Name: 2025-10-13 00:00:00, dtype: float64"
+PLTR,421787566080,"Ticker
+PLTR    177.75
+Name: 2025-10-13 00:00:00, dtype: float64"
+PANW,144858497024,"Ticker
+PANW    214.01
+Name: 2025-10-13 00:00:00, dtype: float64"
+PSKY,19040186368,"Ticker
+PSKY    17.37
+Name: 2025-10-13 00:00:00, dtype: float64"
+PH,92136734720,"Ticker
+PH    728.1
+Name: 2025-10-13 00:00:00, dtype: float64"
+PNR,17847195648,"Ticker
+PNR    108.87
+Name: 2025-10-13 00:00:00, dtype: float64"
+PEP,203781537792,"Ticker
+PEP    149.04
+Name: 2025-10-13 00:00:00, dtype: float64"
+PFE,140550225920,"Ticker
+PFE    24.72
+Name: 2025-10-13 00:00:00, dtype: float64"
+PCG,35077484544,"Ticker
+PCG    15.96
+Name: 2025-10-13 00:00:00, dtype: float64"
+PSX,51608690688,"Ticker
+PSX    127.71
+Name: 2025-10-13 00:00:00, dtype: float64"
+PPL,27495178240,"Ticker
+PPL    37.18
+Name: 2025-10-13 00:00:00, dtype: float64"
+PFG,17805881344,"Ticker
+PFG    79.93
+Name: 2025-10-13 00:00:00, dtype: float64"
+PLD,104377188352,"Ticker
+PLD    112.39
+Name: 2025-10-13 00:00:00, dtype: float64"
+PTC,24047187968,"Ticker
+PTC    200.74
+Name: 2025-10-13 00:00:00, dtype: float64"
+PHM,23601721344,"Ticker
+PHM    119.52
+Name: 2025-10-13 00:00:00, dtype: float64"
+PWR,64027107328,"Ticker
+PWR    429.7
+Name: 2025-10-13 00:00:00, dtype: float64"
+QCOM,170438852608,"Ticker
+QCOM    157.96
+Name: 2025-10-13 00:00:00, dtype: float64"
+DGX,20401068032,"Ticker
+DGX    182.44
+Name: 2025-10-13 00:00:00, dtype: float64"
+RL,19435560960,"Ticker
+RL    320.86
+Name: 2025-10-13 00:00:00, dtype: float64"
+RJF,32257335296,"Ticker
+RJF    161.79
+Name: 2025-10-13 00:00:00, dtype: float64"
+RTX,213122629632,"Ticker
+RTX    159.19
+Name: 2025-10-13 00:00:00, dtype: float64"
+O,53477765120,"Ticker
+O    58.49
+Name: 2025-10-13 00:00:00, dtype: float64"
+REG,12900567040,"Ticker
+REG    70.63
+Name: 2025-10-13 00:00:00, dtype: float64"
+REGN,58425577472,"Ticker
+REGN    551.25
+Name: 2025-10-13 00:00:00, dtype: float64"
+RF,21830324224,"Ticker
+RF    24.47
+Name: 2025-10-13 00:00:00, dtype: float64"
+RMD,39613423616,"Ticker
+RMD    271.43
+Name: 2025-10-13 00:00:00, dtype: float64"
+HOOD,125738639360,"Ticker
+HOOD    141.49
+Name: 2025-10-13 00:00:00, dtype: float64"
+ROK,38208561152,"Ticker
+ROK    339.83
+Name: 2025-10-13 00:00:00, dtype: float64"
+ROL,27452432384,"Ticker
+ROL    56.65
+Name: 2025-10-13 00:00:00, dtype: float64"
+ROST,50023051264,"Ticker
+ROST    153.81
+Name: 2025-10-13 00:00:00, dtype: float64"
+STX,46771027968,"Ticker
+STX    219.62
+Name: 2025-10-13 00:00:00, dtype: float64"
+SRE,59720802304,"Ticker
+SRE    91.53
+Name: 2025-10-13 00:00:00, dtype: float64"
+SPG,66707173376,"Ticker
+SPG    176.85
+Name: 2025-10-13 00:00:00, dtype: float64"
+SWKS,10543552512,"Ticker
+SWKS    71.04
+Name: 2025-10-13 00:00:00, dtype: float64"
+SNA,17344321536,"Ticker
+SNA    332.5
+Name: 2025-10-13 00:00:00, dtype: float64"
+SO,107139112960,"Ticker
+SO    97.39
+Name: 2025-10-13 00:00:00, dtype: float64"
+LUV,16795502592,"Ticker
+LUV    31.98
+Name: 2025-10-13 00:00:00, dtype: float64"
+STT,31992322048,"Ticker
+STT    112.77
+Name: 2025-10-13 00:00:00, dtype: float64"
+STLD,21387354112,"Ticker
+STLD    145.29
+Name: 2025-10-13 00:00:00, dtype: float64"
+STE,23169914880,"Ticker
+STE    235.25
+Name: 2025-10-13 00:00:00, dtype: float64"
+SMCI,32881141760,"Ticker
+SMCI    55.27
+Name: 2025-10-13 00:00:00, dtype: float64"
+SYF,25874741248,"Ticker
+SYF    69.54
+Name: 2025-10-13 00:00:00, dtype: float64"
+SYY,37455171584,"Ticker
+SYY    78.28
+Name: 2025-10-13 00:00:00, dtype: float64"
+TROW,23139311616,"Ticker
+TROW    105.32
+Name: 2025-10-13 00:00:00, dtype: float64"
+TTWO,46988251136,"Ticker
+TTWO    254.72
+Name: 2025-10-13 00:00:00, dtype: float64"
+TPR,23631749120,"Ticker
+TPR    114.16
+Name: 2025-10-13 00:00:00, dtype: float64"
+TEL,64590778368,"Ticker
+TEL    218.6
+Name: 2025-10-13 00:00:00, dtype: float64"
+TDY,26872733696,"Ticker
+TDY    573.12
+Name: 2025-10-13 00:00:00, dtype: float64"
+TER,22005438464,"Ticker
+TER    138.34
+Name: 2025-10-13 00:00:00, dtype: float64"
+TSLA,1409797586944,"Ticker
+TSLA    423.92
+Name: 2025-10-13 00:00:00, dtype: float64"
+TXT,14735796224,"Ticker
+TXT    82.69
+Name: 2025-10-13 00:00:00, dtype: float64"
+TMO,199348994048,"Ticker
+TMO    527.92
+Name: 2025-10-13 00:00:00, dtype: float64"
+TJX,157180329984,"Ticker
+TJX    141.23
+Name: 2025-10-13 00:00:00, dtype: float64"
+TKO,15569868800,"Ticker
+TKO    189.56
+Name: 2025-10-13 00:00:00, dtype: float64"
+TRV,60651057152,"Ticker
+TRV    269.4
+Name: 2025-10-13 00:00:00, dtype: float64"
+TFC,55290978304,"Ticker
+TFC    42.88
+Name: 2025-10-13 00:00:00, dtype: float64"
+USB,71475781632,"Ticker
+USB    45.93
+Name: 2025-10-13 00:00:00, dtype: float64"
+UBER,197697699840,"Ticker
+UBER    94.76
+Name: 2025-10-13 00:00:00, dtype: float64"
+ULTA,24494524416,"Ticker
+ULTA    546.28
+Name: 2025-10-13 00:00:00, dtype: float64"
+UNP,134081519616,"Ticker
+UNP    226.06
+Name: 2025-10-13 00:00:00, dtype: float64"
+UAL,32298749952,"Ticker
+UAL    99.77
+Name: 2025-10-13 00:00:00, dtype: float64"
+URI,62502027264,"Ticker
+URI    971.41
+Name: 2025-10-13 00:00:00, dtype: float64"
+UNH,323243966464,"Ticker
+UNH    356.85
+Name: 2025-10-13 00:00:00, dtype: float64"
+UHS,12567367680,"Ticker
+UHS    197.48
+Name: 2025-10-13 00:00:00, dtype: float64"
+VLO,50387709952,"Ticker
+VLO    162.2
+Name: 2025-10-13 00:00:00, dtype: float64"
+VTR,30608633856,"Ticker
+VTR    67.35
+Name: 2025-10-13 00:00:00, dtype: float64"
+VTRS,11600427008,"Ticker
+VTRS    9.95
+Name: 2025-10-13 00:00:00, dtype: float64"
+VST,69796986880,"Ticker
+VST    206.0
+Name: 2025-10-13 00:00:00, dtype: float64"
+VMC,39964917760,"Ticker
+VMC    302.48
+Name: 2025-10-13 00:00:00, dtype: float64"
+WRB,29474840576,"Ticker
+WRB    77.71
+Name: 2025-10-13 00:00:00, dtype: float64"
+WMT,811875434496,"Ticker
+WMT    101.83
+Name: 2025-10-13 00:00:00, dtype: float64"
+WBD,44625793024,"Ticker
+WBD    18.02
+Name: 2025-10-13 00:00:00, dtype: float64"
+WEC,36977623040,"Ticker
+WEC    114.89
+Name: 2025-10-13 00:00:00, dtype: float64"
+WFC,253328130048,"Ticker
+WFC    79.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+WELL,111045165056,"Ticker
+WELL    166.03
+Name: 2025-10-13 00:00:00, dtype: float64"
+WST,18936795136,"Ticker
+WST    263.35
+Name: 2025-10-13 00:00:00, dtype: float64"
+WDC,40401879040,"Ticker
+WDC    117.8
+Name: 2025-10-13 00:00:00, dtype: float64"
+WSM,23045167104,"Ticker
+WSM    189.22
+Name: 2025-10-13 00:00:00, dtype: float64"
+WMB,77019660288,"Ticker
+WMB    63.07
+Name: 2025-10-13 00:00:00, dtype: float64"
+WTW,32685893632,"Ticker
+WTW    335.08
+Name: 2025-10-13 00:00:00, dtype: float64"
+WYNN,11918829568,"Ticker
+WYNN    114.63
+Name: 2025-10-13 00:00:00, dtype: float64"
+XEL,47630508032,"Ticker
+XEL    80.53
+Name: 2025-10-13 00:00:00, dtype: float64"
+XYL,35549376512,"Ticker
+XYL    146.05
+Name: 2025-10-13 00:00:00, dtype: float64"
+YUM,39138082816,"Ticker
+YUM    141.02
+Name: 2025-10-13 00:00:00, dtype: float64"
