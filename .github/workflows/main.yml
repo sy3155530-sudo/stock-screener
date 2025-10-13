@@ -28,9 +28,8 @@ jobs:
           python main.py
 
       - name: 📁 Upload result file
-        if: success() && hashFiles('results.csv') != ''
-        uses: actions/upload-artifact@v4
-        with:
-          name: results
-          path: |
-            ./results.csv
+  if: success()
+  uses: actions/upload-artifact@v4
+  with:
+    name: results
+    path: output/results.csv
