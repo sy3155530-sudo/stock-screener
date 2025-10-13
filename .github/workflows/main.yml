@@ -21,7 +21,7 @@ jobs:
 
     - name: 📦 Install dependencies
       run: |
-        pip install yfinance pandas numpy matplotlib ta
+        pip install yfinance pandas numpy matplotlib ta lxml
 
     - name: 🚀 Run the stock screener
       run: |
