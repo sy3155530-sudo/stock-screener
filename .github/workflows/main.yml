@@ -2,35 +2,35 @@ name: Daily Stock Screener
 
 on:
   schedule:
-    # 每天 UTC 时间 20:00 自动运行（≈ 卡尔加里下午 2:00，美股收盘后）
+    # 每天 UTC 时间 20:00 自动执行（卡尔加里时间下午 2 点）
     - cron: "0 20 * * *"
-  workflow_dispatch:  # 允许手动触发（你也可以随时点击运行）
+  workflow_dispatch:  # 支持手动执行
 
 jobs:
   run-screener:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 🧭 Checkout repository
-      uses: actions/checkout@v4
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
 
-    - name: 🐍 Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.11"
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-    - name: 📦 Install dependencies
-      run: |
-        pip install yfinance pandas numpy matplotlib ta lxml
+      - name: 📦 Install dependencies
+        run: |
+          pip install yfinance pandas numpy matplotlib lxml requests
 
-    - name: 🚀 Run the stock screener
-      run: |
-        python main.py
+      - name: 🚀 Run the stock screener
+        run: |
+          python main.py
 
-    - name: 📁 Upload result file
-  if: success() && hashFiles('results.csv') != ''
-  uses: actions/upload-artifact@v4
-  with:
-    name: results
-    path: |
-      ./results.csv
+      - name: 📁 Upload result file
+        if: success() && hashFiles('results.csv') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: |
+            ./results.csv
