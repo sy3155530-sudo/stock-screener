@@ -61,7 +61,9 @@ def main():
 
     if results:
         df = pd.DataFrame(results)
-        df.to_csv("results.csv", index=False)
+        import os
+os.makedirs("output", exist_ok=True)
+df.to_csv("output/results.csv", index=False, encoding="utf-8-sig")
         print(f"✅ 分析完成，共找到 {len(df)} 支股票。结果已保存为 results.csv")
     else:
         print("😅 没有符合条件的股票。")
