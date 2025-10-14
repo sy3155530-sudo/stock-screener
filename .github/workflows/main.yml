@@ -1,24 +1,31 @@
 name: Build static screener
 
 on:
-schedule:
-  - cron: "0 21 * * 1-5"  # 每个交易日 UTC 21 点（卡尔加里约 15:00）运行
-  workflow_dispatch:
+  schedule:
+    - cron: "0 21 * * 1-5"  # 每个交易日 UTC 21 点运行（卡尔加里约 15:00）
+  workflow_dispatch:         # 允许手动触发
 
 permissions:
-  contents: write   # ✅ 关键：允许 Action 推送到 gh-pages 分支
+  contents: write            # 允许 Actions 推送到 gh-pages 分支
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
-      - run: python scripts/build.py
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run screener build
+        run: python scripts/build.py
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
